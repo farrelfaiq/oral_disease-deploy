@@ -13,7 +13,7 @@ def load_model():
     return _model_pipeline
 
 def predict_from_features(features):
-    """Prediksi penyakit tanaman berdasarkan fitur"""
+    """Prediksi penyakit gigi berdasarkan fitur"""
     model = load_model()
     pred = model.predict(features)[0]
     confidence = None

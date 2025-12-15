@@ -5,8 +5,8 @@ from utils.logger import logger
 from models.labels import LABELS
 
 app = FastAPI(
-    title="🌿 Plant Disease Prediction API",
-    description="API untuk deteksi penyakit tanaman berbasis CNN feature extraction + ML pipeline",
+    title="🦷 Oral Disease Prediction API",
+    description="API untuk deteksi penyakit gigi berbasis CNN feature extraction + ML pipeline",
     version="1.0.0"
 )
 
@@ -14,7 +14,7 @@ app = FastAPI(
 def root():
     return {
         "status": "success",
-        "message": "Plant Disease Prediction API is running."
+        "message": "Oral Disease Prediction API is running."
     }
 
 @app.post("/predict")

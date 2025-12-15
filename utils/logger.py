@@ -6,4 +6,4 @@ logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s"
 )
 
-logger = logging.getLogger("plant_disease_api")
+logger = logging.getLogger("oral_disease_api")
